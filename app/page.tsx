@@ -12,7 +12,7 @@ export default function Home() {
       }}
     >
       <header style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 32 }}>
-        <Image src="/assets/astor-code.png" alt="Astor Code" width={64} height={64} />
+        <Image src="/assets/astorcode.png" alt="Astor Code" width={64} height={64} />
         <strong>Astor Code</strong>
       </header>
 
@@ -25,7 +25,7 @@ export default function Home() {
         }}
       >
         <div>
-          <Image src="/assets/zapvitrine-logo.png" alt="ZapVitrine" width={220} height={220} />
+          <Image src="/assets/ZapVitrine.png" alt="ZapVitrine" width={220} height={220} />
           <h1 style={{ fontSize: 40, margin: '16px 0' }}>Crie sua vitrine digital</h1>
           <p style={{ fontSize: 18, opacity: 0.85 }}>Venda pelo WhatsApp, sem comissões.</p>
           <div style={{ display: 'flex', gap: 12, marginTop: 20 }}>
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <Image src="/assets/banner.png" alt="ZapVitrine banner" width={520} height={360} />
+          <Image src="/assets/logo.png" alt="ZapVitrine banner" width={520} height={360} />
         </div>
       </section>
 
