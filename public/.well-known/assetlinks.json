@@ -1,11 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.zapvitrine.app",
       "sha256_cert_fingerprints": [
-        "B1:61:FB:04:32:9A:5F:1E:CF:33:4B:81:BA:A0:A6:98:24:A4:6A:68:06:49:4A:B9:C7:..."
+        "B1:61:FB:04:32:9A:5F:1E:CF:33:4B:81:BA:A0:A6:98:24:A4:6A:68:06:49:4A:B9:C7:...",
+        "B1:61:FB:04:32:9A:5F:1E:CF:33:4B:81:BA:A0:A6:98:24:A4:6A:68:06:49:4A:B9:C7:CA:9E:55:72:2B:22:9C"
       ]
     }
   }
